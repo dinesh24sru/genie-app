@@ -82,7 +82,7 @@ function appendMessage(role, content) {
     if (role === "assistant") {
         const iconElement = document.createElement("img");
         iconElement.classList.add("response-icon");
-        iconElement.src = "/static/icon1.png";
+        iconElement.src = "icon1.png";
         iconElement.alt = "Response Icon";
         messageElement.appendChild(iconElement);
     }
