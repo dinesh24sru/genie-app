@@ -655,7 +655,7 @@ color: #11468F;
         width: 60px;
         height: 60px;
         position: fixed;
-        bottom: 120px;
+        bottom: 40px;
         right: 20px;
         padding: 10px;
         background-color: #041562;
@@ -715,7 +715,7 @@ color: #11468F;
  
     .container {
         position: absolute;
-        top: 310px;
+        top: 340px;
         left: 10px;
         color: #041562;
     }
@@ -771,7 +771,7 @@ color: #11468F;
         width: 50px;
         height: 50px;
         position: fixed;
-        bottom: 170px;
+        bottom: 40px;
         right: 20px;
         padding: 10px;
         background-color: hsl(229, 92%, 20%);
@@ -829,8 +829,8 @@ color: #11468F;
         width: 40px;
         height: 40px;
         position: fixed;
-        bottom: 170px;
-        right: 30px;
+        bottom: 40px;
+        right: 20px;
         padding: 10px;
         background-color: #041562;
         border: none;
@@ -843,6 +843,13 @@ color: #11468F;
         align-items: center;
         animation: jump 1s infinite;
     }
+    .container {
+        position: absolute;
+        top: 350px;
+        left: 10px;
+        color: #041562;
+    }
+
  
     .chat-icon {
         width: 30px;
@@ -852,6 +859,11 @@ color: #11468F;
         font-size: 10px;
         color: #bbb;
         padding: 4px;
+    }
+    span {
+        color: #041562;
+        font-size: 30px;
+        font-weight: 700;
     }
  
  
