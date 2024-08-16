@@ -636,7 +636,8 @@ color: #11468F;
     .img {
         position: fixed;
         top: 25%;
-        right: 90px;
+        right: 20%;
+        left: 20%;
     }
  
     .pic {
@@ -752,7 +753,8 @@ color: #11468F;
     .img {
         position: fixed;
         top: 25%;
-        right: 100px;
+        right: 25%;
+        left: 25%;
     }
  
     .pic {
@@ -816,7 +818,8 @@ color: #11468F;
     .img {
         position: fixed;
         top: 25%;
-        right: 60px;
+        left: 20%;
+        right: 20%;
     }
  
     .pic {
