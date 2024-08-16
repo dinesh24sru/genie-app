@@ -265,6 +265,7 @@ color: #11468F;
     border-radius: 20px;
     font-size: 14px;
     background-color: whitesmoke;
+    overflow-y: hidden;
 }
  
 .send-button {
