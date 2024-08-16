@@ -16,7 +16,21 @@
     font-style: normal;
 }
  
- 
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.raleway-400{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
 body{
     background-color: #EEEEEE;
     position: relative;
@@ -125,13 +139,14 @@ color: #11468F;
   }
  
 .chat-popup-button {
+    width: 80px;
+    height: 80px;
     position: fixed;
     bottom: 70px;
     right: 50px;
-    padding: 15px;
     background-color: #041562;
     border: none;
-    border-radius: 50px;
+    border-radius: 50%;
     cursor: pointer;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
@@ -146,8 +161,12 @@ color: #11468F;
 }
  
 .chat-icon {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+   
 }
  
  
@@ -158,7 +177,8 @@ color: #11468F;
     height: 70vh;
     position: fixed;
     bottom: 110px;
-    right: 400px;
+    left: 25%;
+    right: 25%;
     padding:20px 15px ;
     background-color: #A2D2FF;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
@@ -255,6 +275,7 @@ color: #11468F;
     color: #000000;
     cursor: pointer;
     transition: background-color 0.2s ease;
+    font-weight: bolder;
 }
  
 .send-button:hover {
@@ -423,7 +444,8 @@ color: #11468F;
         height: 70vh;
         position: fixed;
         bottom: 60px;
-        right: 185px;
+        left: 20%;
+        right: 20%;
         padding:20px 15px ;
         background-color: #A2D2FF;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
@@ -529,7 +551,8 @@ color: #11468F;
         height: 70vh;
         position: fixed;
         bottom: 65px;
-        right: 150px;
+        left: 20%;
+        right: 20%;
         padding:20px 15px ;
         background-color: #A2D2FF;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
@@ -652,7 +675,8 @@ color: #11468F;
         height: 70vh;
         position: fixed;
         bottom: 60px;
-        right: 25px;
+        left: 5%;
+        right: 5%;
         padding:20px 15px ;
         background-color: #A2D2FF;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
@@ -765,7 +789,8 @@ color: #11468F;
         height: 70vh;
         position: fixed;
         bottom: 60px;
-        right: 20px;
+        left: 5%;
+        right: 5%;
         padding:10px 9px ;
         background-color: #A2D2FF;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
@@ -822,9 +847,9 @@ color: #11468F;
         width: 100%;
         max-width: 280px;
         height: 70vh;
-        position: fixed;
-        bottom: 60px;
-        right: 13px;
+        position: absolute;
+        top: 100%;
+          
         padding:9px 8px ;
         background-color: #A2D2FF;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
